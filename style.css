@@ -10,12 +10,14 @@ body{
     background: #f8fafc;
     margin: 0;
     font-size: 2em;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
+    position: absolute;
+    width: 100%;
     background: #fff;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    font-family: 'Roboto', sans-serif;
     height: 1.93em;
 }
 
@@ -24,4 +26,34 @@ header{
     margin: 0.25em;
     display: inline-block;
     margin-left: 3em;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+article{
+    background-color: black;
+    width: 15em;
+    height: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text{
+    color: #fff;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.text-color{
+    color: #655fff;
+}
+
+.btn{
+
 }
