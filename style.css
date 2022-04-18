@@ -28,13 +28,15 @@ header {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
     height: 1.93em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
     color: var(--accentColor);
-    margin: 0.25em;
+    margin: 0;
     display: inline-block;
-    margin-left: 3em;
 }
 
 main {
@@ -80,4 +82,10 @@ main {
 .btn:hover {
     color: var(--textColor);
     background-color: var(--accentBgColor);
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 300px;
+    }
 }
