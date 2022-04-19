@@ -14,10 +14,3 @@ function change() {
     document.getElementsByClassName('text-color')[0].textContent =
         color.toUpperCase();
 }
-
-// let color = window.getComputedStyle(
-//     document.getElementsByTagName('body')[0],
-//     null
-// ).backgroundColor;
-
-// document.getElementsByClassName('text-color')[0].setAttribute('value', color);
